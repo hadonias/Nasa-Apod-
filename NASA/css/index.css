@@ -1,0 +1,141 @@
+.top {
+    width: 10%;
+    height: 100%;
+}
+
+body {
+    background-image:url('https://super.abril.com.br/wp-content/uploads/2018/07/istock-524554638.jpg?quality=90&strip=info&w=1024');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+header > h1 {
+    padding: 25px;
+    color: rgb(253, 250, 250);
+
+}
+
+#sobre{
+    padding: 5px;
+    justify-content: center;
+    height: 70px;
+}
+
+#sobre > a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+#sobre > a:hover {
+    color: #fffff2;
+    font-size: 33px;
+}
+
+#entrada {
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="date"] {
+    color: #ffffff;
+    font-size: 18px;
+    border: 3px solid hsl(192, 97%, 51%);
+    background: #f5f3f370;
+    padding: 5px;
+}
+
+#botao {
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(170, 166, 166);
+    font-size: 18px;
+    color: black;
+    border: 3px solid #09dffb;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+
+h1,
+p {
+    color: #efecea;
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    color: #f6f3f1;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+     bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#infoResultado {
+    padding: 50px;
+}
+
+#titulo {
+    color: #f6f6f6;
+    font-style: oblique;
+    font-weight: 900;
+
+}
+
+#fotoOuVideo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#explicacao {
+    color: rgb(250, 245, 245);
+    text-align: justify;
+}
+
+#foto {
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+#video {
+    width: 1200px;
+    height: 600px;
+}
+
+@media(max-width:700px){
+
+    #foto {
+        width: 200px;
+        height: 500px;
+        border-radius: 10px;
+    }
+    
+    #video {
+        width: 1200px;
+        height: 600px;
+    }
+    footer{
+        background: #000;
+    }
+}

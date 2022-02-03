@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD</title>
+    <link rel ="stylesheet" href="css\index.css">
+</head>
+<body>
+    <header>
+        <img class ="top" src="imagens\nasa-removebg-preview (1).png" id="nasa" />
+        <h1> O Universo ao Nosso Alcance </h1>
+    </header>
+
+    <p id="sobre">
+        <a href="https://apod.nasa.gov/apod/archivepix.html" target="_blank">Descubra o Cosmos! </a>
+        Uma imagem diferente de nosso fascinante universo é apresentada de acordo com a data.
+    </p>
+
+
+    <main>
+        <div id="entrada">
+            <input id="data" type="date" min="1995-06-16" />
+        </div>
+
+        <div id="botao">
+            <button type="submit" id="btnSubmit" value="enviar">Confirmar !</button>
+        </div>
+
+        <div id="infoResultado">
+            <h1 id="titulo"></h1>
+            <div id="fotoOuVideo"></div>
+            <p id="explicacao"></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footerContainer">
+            &copy; Hadonias Leite - Todos os Direitos Reservados
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="javaScript\index.js"> </script>
+</body>
+</html>
